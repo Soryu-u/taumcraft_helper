@@ -1,0 +1,31 @@
+[
+    {
+        "name": "aer",
+        "type": "basic"
+    },
+    {
+        "name": "terra",
+        "type": "basic"
+    },
+    {
+        "name": "aqua",
+        "type": "basic"
+    },
+    {
+        "name": "ignis",
+        "type": "basic"
+    },
+    {
+        "name": "ordo",
+        "type": "basic"
+    },
+    {
+        "name": "perditio",
+        "type": "basic"
+    },
+    {
+        "name": "lux",
+        "type": "hard",
+        "zxc": ["aer", "ignis"]
+    }
+]
