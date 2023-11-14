@@ -1,31 +1,320 @@
 [
     {
+        "id": 1,
         "name": "aer",
         "type": "basic"
     },
     {
+        "id": 2,
         "name": "terra",
         "type": "basic"
     },
     {
+        "id": 3,
         "name": "aqua",
         "type": "basic"
     },
     {
+        "id": 4,
         "name": "ignis",
         "type": "basic"
     },
     {
+        "id": 5,
         "name": "ordo",
         "type": "basic"
     },
     {
+        "id": 6,
         "name": "perditio",
         "type": "basic"
     },
     {
+        "id": 7,
         "name": "lux",
         "type": "hard",
-        "zxc": ["aer", "ignis"]
+        "aspect": ["aer", "ignis"]
+    },
+    {
+        "id": 8,
+        "name": "motus",
+        "type": "hard",
+        "aspect": ["aer", "ordo"]
+    },
+    {
+        "id": 9,
+        "name": "victus",
+        "type": "hard",
+        "aspect": ["aqua", "terra"]
+    },
+    {
+        "id": 10,
+        "name": "gelum",
+        "type": "hard",
+        "aspect": ["ignis", "perditio"]
+    },
+    {
+        "id": 11,
+        "name": "vacuos",
+        "type": "hard",
+        "aspect": ["aer", "perditio"]
+    },    
+    {
+        "id": 12,
+        "name": "tempestas",
+        "type": "hard",
+        "aspect": ["aer", "aqua"]
+    },
+    {
+        "id": 13,
+        "name": "potentia",
+        "type": "hard",
+        "aspect": ["ordo", "ignis"]
+    },
+    {
+        "id": 14,
+        "name": "venenum",
+        "type": "hard",
+        "aspect": ["aqua", "perditio"]
+    },
+    {
+        "id": 15,
+        "name": "vitreus",
+        "type": "hard",
+        "aspect": ["terra", "ordo"]
+    },
+    {
+        "id": 16,
+        "name": "permutatio",
+        "type": "hard",
+        "aspect": ["perditio", "ordo"]
+    },
+    {
+        "id": 17,
+        "name": "fames",
+        "type": "hard",
+        "aspect": ["victus", "vacuos"]
+    },
+    {
+        "id": 18,
+        "name": "bestia",
+        "type": "hard",
+        "aspect": ["motus", "victus"]
+    },
+    {
+        "id": 19,
+        "name": "metallum",
+        "type": "hard",
+        "aspect": ["terra", "vitreus"]
+    },
+    {
+        "id": 20,
+        "name": "herba",
+        "type": "hard",
+        "aspect": ["victus", "terra"]
+    },
+    {
+        "id": 21,
+        "name": "preacanatio",
+        "type": "hard",
+        "aspect": ["vacuos", "potentia"]
+    },
+    {
+        "id": 22,
+        "name": "limus",
+        "type": "hard",
+        "aspect": ["victus", "aqua"]
+    },
+    {
+        "id": 23,
+        "name": "mortuus",
+        "type": "hard",
+        "aspect": ["victus", "perditio"]
+    },
+    {
+        "id": 24,
+        "name": "iter",
+        "type": "hard",
+        "aspect": ["motus", "terra"]
+    },
+    {
+        "id": 25,
+        "name": "tenebrae",
+        "type": "hard",
+        "aspect": ["vacuos", "lux"]
+    },
+    {
+        "id": 26,
+        "name": "volatus",
+        "type": "hard",
+        "aspect": ["aer", "motus"]
+    },
+    {
+        "id": 27,
+        "name": "vinculum",
+        "type": "hard",
+        "aspect": ["motus", "perditio"]
+    },
+    {
+        "id": 28,
+        "name": "spiritus",
+        "type": "hard",
+        "aspect": ["victus", "mortuus"]
+    },
+    {
+        "id": 29,
+        "name": "auram",
+        "type": "hard",
+        "aspect": ["preacantatio", "aer"]
+    },
+    {
+        "id": 30,
+        "name": "exanimis",
+        "type": "hard",
+        "aspect": ["motus", "mortuus"]
+    },
+    {
+        "id": 31,
+        "name": "vitium",
+        "type": "hard",
+        "aspect": ["preacantatio", "perditio"]
+    },
+    {
+        "id": 32,
+        "name": "corpus",
+        "type": "hard",
+        "aspect": ["mortuus", "bestia"]
+    },
+    {
+        "id": 33,
+        "name": "alienis",
+        "type": "hard",
+        "aspect": ["vacuos", "tenebrae"]
+    },
+    {
+        "id": 34,
+        "name": "gula",
+        "type": "hard",
+        "aspect": ["fames", "vacuos"]
+    },
+    {
+        "id": 35,
+        "name": "infernus",
+        "type": "hard",
+        "aspect": ["ignis", "preacantatio"]
+    },
+    {
+        "id": 36,
+        "name": "superbia",
+        "type": "hard",
+        "aspect": ["volatus", "vacuos"]
+    },
+    {
+        "id": 37,
+        "name": "sensus",
+        "type": "hard",
+        "aspect": ["aer", "spiritus"]
+    },
+    {
+        "id": 38,
+        "name": "cognitio",
+        "type": "hard",
+        "aspect": ["ignis", "spiritus"]
+    },
+    {
+        "id": 39,
+        "name": "arbor",
+        "type": "hard",
+        "aspect": ["aer", "herba"]
+    },
+    {
+        "id": 40,
+        "name": "desidia",
+        "type": "hard",
+        "aspect": ["vinculum", "spiritus"]
+    },
+    {
+        "id": 41,
+        "name": "luxuria",
+        "type": "hard",
+        "aspect": ["corpus", "fames"]
+    },
+    {
+        "id": 42,
+        "name": "humanus",
+        "type": "hard",
+        "aspect": ["bestia", "cognitio"]
+    },
+    {
+        "id": 43,
+        "name": "invidia",
+        "type": "hard",
+        "aspect": ["sensus", "fames"]
+    },
+    {
+        "id": 44,
+        "name": "messis",
+        "type": "hard",
+        "aspect": ["herba", "humanus"]
+    },
+    {
+        "id": 45,
+        "name": "lucrum",
+        "type": "hard",
+        "aspect": ["humanus", "fames"]
+    },
+    {
+        "id": 46,
+        "name": "instrumentum",
+        "type": "hard",
+        "aspect": ["humanus", "ordo"]
+    },
+    {
+        "id": 47,
+        "name": "perfodio",
+        "type": "hard",
+        "aspect": ["humanus", "terra"]
+    },
+    {
+        "id": 48,
+        "name": "pannus",
+        "type": "hard",
+        "aspect": ["instrumentum", "bestia"]
+    },
+    {
+        "id": 49,
+        "name": "machina",
+        "type": "hard",
+        "aspect": ["motus", "instrumentum"]
+    },
+    {
+        "id": 50,
+        "name": "fabrico",
+        "type": "hard",
+        "aspect": ["humanus", "instrumentum"]
+    },
+    {
+        "id": 51,
+        "name": "tutamen",
+        "type": "hard",
+        "aspect": ["instrumentum", "terra"]
+    },
+    {
+        "id": 52,
+        "name": "telum",
+        "type": "hard",
+        "aspect": ["instrumentum", "ignis"]
+    },
+    {
+        "id": 53,
+        "name": "meto",
+        "type": "hard",
+        "aspect": ["messis", "instrumentum"]
+    },
+    {
+        "id": 54,
+        "name": "ira",
+        "type": "hard",
+        "aspect": ["telum", "ignis"]
     }
 ]
